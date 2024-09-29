@@ -1,0 +1,18 @@
+Preguntas Relacionadas a MPS
+Se planifica toda la producción y con la capacidad disponible total se puede fabricar todo. ¿Qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto?
+  
+Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que los Jueves y Viernes hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
+Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que los Lunes y Martes hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
+Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que todos los días hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
+¿Cómo hace una computadora para asociar el conjunto de productos que va a analizar?
+Si una empresa fabrica champú y luego lo embotella en distintas presentaciones, ¿la empresa calcula la cantidad de champú para producción para cada presentación o para el total de las presentaciones y luego embotella según corresponda? ¿Qué pasa si en lugar de champú son unidades como bolas de tenis, que luego son vendidas en paquetes de tres unidades, 6 unidades o docenas?
+¿Qué relación tienen las órdenes de producción y el cálculo del MPS? ¿Se hace un MPS por orden o se agrupan? [Respondan para su empresa]
+
+
+Preguntas Relacionadas a MRP
+Cuando se calcula el MRP, ¿genera demandas dependientes que a su vez se convierten en MPS? ¿Qué se debería hacer si genera o no demandas dependientes?
+¿Los componentes se consideran productos? ¿Si se consideran productos, qué pasos se pueden realizar en los cálculos de MPS o MRP?
+¿Qué pasa con los productos precederos en los cálculos del MPS y MRP? [Responder solo si aplica a sus empresas]
+Se tienen 100 unidades de X producto en bodegas, con esta premisa respondan:
+Si el producto vence en un mes y se está planificando la producción a tres meses, teóricamente el producto alcanza para los tres meses. ¿Qué se debe hacer?
+De las 100 unidades que hay en bodega, 90 de ellas están comprometidas para la fabricación de otros productos. Pero se necesitan 20 unidades. ¿Cómo el sistema registra la información de productos, ya que para efectos contables, de seguridad y producción debemos saber en realidad cuántas unidades hay en bodega, pero también es necesario conocer si debo solicitar más unidades para cumplir con el plan de producción?
