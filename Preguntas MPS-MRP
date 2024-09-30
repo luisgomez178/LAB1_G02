@@ -1,18 +1,43 @@
 Preguntas Relacionadas a MPS
 Se planifica toda la producción y con la capacidad disponible total se puede fabricar todo. ¿Qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto?
-  
-Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que los Jueves y Viernes hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
-Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que los Lunes y Martes hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
-Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que todos los días hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
-¿Cómo hace una computadora para asociar el conjunto de productos que va a analizar?
-Si una empresa fabrica champú y luego lo embotella en distintas presentaciones, ¿la empresa calcula la cantidad de champú para producción para cada presentación o para el total de las presentaciones y luego embotella según corresponda? ¿Qué pasa si en lugar de champú son unidades como bolas de tenis, que luego son vendidas en paquetes de tres unidades, 6 unidades o docenas?
-¿Qué relación tienen las órdenes de producción y el cálculo del MPS? ¿Se hace un MPS por orden o se agrupan? [Respondan para su empresa]
+      Utilizaríamos perseguidor para no tener inventarios y por ende, no tener costos de inventario.
 
+Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que los Jueves y Viernes hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
+      Usaríamos mixta, priorizando los productos de mayor utilidad y didiviendo lo que sea necesario en los días cuya capacidad no se ve utilizada al 100%, o sea, lunes, martes y miercoles. Esto claro tomando en cuenta que si no se tiene con la capacidad en estos días, habría que pagar horas extra.
+
+Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que los Lunes y Martes hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
+      Parecido al modelo anterior, se utilizaría mixto, fabricando miercoles, jueves y viernes de la semana anterior.
+
+Se planifica toda la producción y con la capacidad disponible total no se puede fabricar todo. Debido a que todos los días hace falta capacidad, ¿qué estrategia de planificación se puede usar: Perseguido, Nivelado, Mixto? ¿Para todos los productos? Si la respuesta es para algunos productos, ¿cómo selecciona qué productos y qué estrategia usar? Y si es para todos, ¿qué estrategia usaría?
+      En estos casos, debería se realizarse un análisis de rentabilidad para cada uno de los productos, donde se le daría prioridad a los encontrados como óptimos. 
+      Al no tener la capacidad, se plantea que se puede usar un perseguidor según los requerimientos de demanda, y ver la posibilidad de la utilización de horas extra.
+
+¿Cómo hace una computadora para asociar el conjunto de productos que va a analizar?
+      En términos de programación, se tiene que darle un nombre a este conjunto de datos o productos, además, se tiene que indicar el nombre de sus características las cuales estén lo más probablemente en una lista.
+
+Si una empresa fabrica champú y luego lo embotella en distintas presentaciones, ¿la empresa calcula la cantidad de champú para producción para cada presentación o para el total de las presentaciones y luego embotella según corresponda? ¿Qué pasa si en lugar de champú son unidades como bolas de tenis, que luego son vendidas en paquetes de tres unidades, 6 unidades o docenas?
+      La empresa fabrica en totalidad y luego se divide en presentaciones.
+
+¿Qué relación tienen las órdenes de producción y el cálculo del MPS? ¿Se hace un MPS por orden o se agrupan? [Respondan para su empresa]
+      PENDIENTE
 
 Preguntas Relacionadas a MRP
 Cuando se calcula el MRP, ¿genera demandas dependientes que a su vez se convierten en MPS? ¿Qué se debería hacer si genera o no demandas dependientes?
+      El MRP calcula las necesidades de materia prima (u otros requerimientos dependiendo de la empresa) en base a la demanda proyectada u ordenes de compra.
+      Sí genera demandas dependientes ya que están planificadas en base los requerimientos del MPS, pero no se convierten en MPS.
+      En el caso de que genere demandas dependientes, estas se entienden como órdenes de producción o compras de componentes.
+
 ¿Los componentes se consideran productos? ¿Si se consideran productos, qué pasos se pueden realizar en los cálculos de MPS o MRP?
+      Se pueden considerar como productos, pero no terminados. 
+      Se tienen que tener en cuenta la creación de órdenes de compra o fabricación, los tiempos de entrega y las reservas de inventario.
+
 ¿Qué pasa con los productos precederos en los cálculos del MPS y MRP? [Responder solo si aplica a sus empresas]
+      NO APLICA
+
 Se tienen 100 unidades de X producto en bodegas, con esta premisa respondan:
 Si el producto vence en un mes y se está planificando la producción a tres meses, teóricamente el producto alcanza para los tres meses. ¿Qué se debe hacer?
+      Se tiene que alertar de la caducidad de inventario, y entender que la producción no se puede anticipar estos tres meses por la naturaleza del producto. 
+      Se debería de evaluar la capacidad de cumplir con la demanda a un nivel perseguidor de corto plazo, y si no se cumple, se debería de disminuir la cantidad producida.
+
 De las 100 unidades que hay en bodega, 90 de ellas están comprometidas para la fabricación de otros productos. Pero se necesitan 20 unidades. ¿Cómo el sistema registra la información de productos, ya que para efectos contables, de seguridad y producción debemos saber en realidad cuántas unidades hay en bodega, pero también es necesario conocer si debo solicitar más unidades para cumplir con el plan de producción?
+      Se puede identificar a las unidades como "reservadas" o "transitorias" para que se entienda que estas no pueden ser contempladas para una planificación siguiente de producción.
