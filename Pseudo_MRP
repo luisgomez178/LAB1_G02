@@ -1,0 +1,30 @@
+INICIO
+
+obtener_datos_entrada_excell:
+//Lista de materiales (BOM: Bill of Materials)
+//Inventario disponible (stock actual)
+//Plan maestro de producción (MPS: Master Production Schedule)
+//Plazos de entrega (Lead times)
+//Inventario de Seguridad de seguridad (Safety Stock)
+
+calculos_de_MPS:
+          //determinar la cantidad necesaria del producto terminado en cada período
+          //restar el inventario disponible y el inventario de seguridad
+          //if_cantidad_requerida > inventario_disponible
+          //calcular la cantidad neta de producción (Net Requirement)
+
+BOM_productos:
+        //utilizar Plan de Produccion (MPS) determinado anteriormente
+        //identificar la cantidad de cada componente requerido para la producción según el BOM
+        //seleccionar low level item que se desean calcular
+        //obtener_datos_inv_inicial
+       //calcular_despacho: MPS*LLI BOM
+       //determinar_security_stock
+       //calcular_pedido: (Despacho - Inv Inicial + Security Stock)
+       //ajustar pedido según indique el proveedor
+       //determinar_inv_disponible: (inv_inicial + pedido_ajustado)
+       //hay mas periodos por calcular?
+       //en caso de que si, repetir calcular_pedidor, ajustar_pedido, inv_disponible e inv_final
+       //No lo hay? Preguntar si se desea calcular el MRP para otro componente
+       //Si se desea calcular otro componente, repetir todos los pasos anteriores
+       //FINALIZAR 
